@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>IZU HOTEL</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキス">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- ① リセット／ベースラインスタイル（ress.css） -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+    <!-- ② Google Fonts のプリコネクトおよび読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- ③ Vegas.js 用スタイル -->
+    <link rel="stylesheet" type="text/css" href="css/vegas.min.css">
+
+    <!-- ④ Slick Carousel 用スタイル -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+
+    <!-- ⑤ 自作スタイル -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ⑥ jQuery 本体（Slick／Vegas の前提となるため最初に読み込む） -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- ⑦ Vegas.js 本体 -->
+    <script src="js/vegas.min.js"></script>
+
+    <!-- ⑧ Slick Carousel 本体 -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- ⑨ 自作メインスクリプト（Vegas と Slick の初期化コードを記述） -->
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="color-change">
+        <h1><a href="index.html"><img src="img/home/logo.png" class="logo" alt=""></a></h1>
+        <nav class="link-parent">
+            <ul class="link-list1">
+                <li><a href="./room.html">Room</a></li>
+                <li><a href="./food.html">Food</a></li>
+                <li><a href="./experience.html">Experience</a></li>
+            </ul>
+            <ul class="link-list2">
+                <li><a href="./access.html">Access</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="reserve-link">Reservation</a>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="mask"></div>
+    </header>
+
+    <main>
+        <section class="page-main">
+            <div class="text">
+                <h2>Food</h2>
+                <p>自慢のレストランでも、<br>
+                    Barでも<br>
+                    地元の食材を</p>
+                <p>山の幸、海の幸。<br>
+                    食材からも自然をお楽しみください。</p>
+            </div>
+            <img src="img/food/mainvisual.png" alt="">
+        </section>
+
+        <section>
+            <ul class="items">
+                <li class="item">
+                    <img src="img/food/restaurant1.png" alt="">
+                    <div class="detail">
+                        <p class="number">01</p>
+                        <h3 class="item-title">Restaurant 1</h3>
+                        <p>ランプが照らす心地良い空間で<br>
+                            シェフの作る洋食をお楽しみいただけます</p>
+                        <div class="time">
+                            <p>【営業時間のご案内】</p>
+                            <p>朝食　8:00～10:30（10:00Last in）</p>
+                            <p>夕食　18:00～21:30（19:30Last in）</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="img/food/restaurant2.png" alt="">
+                    <div class="detail">
+                        <p class="number">02</p>
+                        <h3 class="item-title">Restaurant 2</h3>
+                        <p>全８部屋の予約制完全個室<br>
+                            地元の食材を使った和食をお楽しみください</p>
+                        <div class="time">
+                            <p>【営業時間のご案内】</p>
+                            <p>夕食　18:00～21:30（19:30Last in）</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="img/food/cafe&bar.png" alt="">
+                    <div class="detail">
+                        <p class="number">03</p>
+                        <h3 class="item-title">Restaurant 3</h3>
+                        <p>心と体を癒すくつろぎの時間を<br>
+                            スイーツやお茶、お酒をご準備しております</p>
+                        <div class="time">
+                            <p>【営業時間のご案内】</p>
+                            <p>モーニング　8：30～12：00</p>
+                            <p>カフェタイム　15：00～18：00</p>
+                            <p>バータイム　18：00～23：00　(21：30　L.O)</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+        <img src="img/food/mainvisual2.png" class="mainvisual2">
+        
+        <section class="bottom-menu">
+            <ul>
+                <li>
+                    <a href="#">
+                        Reservation<span class="english">ご予約</span>
+                        <span class="pointer">→</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./access.html">
+                        Access<span class="english">アクセス</span>
+                        <span class="pointer">→</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        Contact<span class="english">お問い合わせ</span>
+                        <span class="pointer">→</span>
+                    </a>
+                </li>
+            </ul>
+            <img src="img/home/util.png" alt="">
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-child wrapper">
+            <section class="information">
+                <h2>IZU HOTEL</h2>
+                <p>〒811-1233</p>
+                <p>福岡県那珂川市市ノ瀬1156-12</p>
+            </section>
+            <section class="link-parent">
+                <ul class="link-list1">
+                    <li><a href="./room.html">Room</a></li>
+                    <li><a href="./food.html">Food</a></li>
+                    <li><a href="./experience.html">Experience</a></li>
+                </ul>
+                <ul class="link-list2">
+                    <li><a href="./access.html">Access</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </section>
+            <section class="sns-list">
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+</body>
+
+</html>
